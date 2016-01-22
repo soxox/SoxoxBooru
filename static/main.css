@@ -1,0 +1,60 @@
+body {
+    background-color: #031131;
+}
+body, div {
+    font-family: verdana,sans-serif;
+    color: #fff;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#logintable td:nth-child(2) { width: 100%; }
+
+#navbar, #userbox {
+    display: inline-block;
+}
+
+#userbox {
+    float:right;
+}
+
+#userbox form {
+    margin:16px;
+}
+
+#navbar li {
+	padding: 0px 10px 2px;
+	vertical-align:bottom;
+}
+
+.flat-list {
+	display: block;
+}
+.flat-list li {
+	display: inline;
+	list-style-type: none;
+	font-weight: bold;
+}
+.flat-list li a {
+	font-weight: normal;
+}
+
+a:link { color:#b4c7d9; text-decoration:none; }
+a:visited { color:#b4c7d9; text-decoration:none; }
+a:hover { color:#2e76b4; text-decoration:none; }
+a:active { color:#b4c7d9; text-decoration:none; }
+
+#content {
+	padding: 20px;
+	margin: 1em;
+	min-width: 780px;
+	border-radius: 6px;
+	background-color: #152F56;
+	box-shadow: 2px 2px 10px #000;
+}
